@@ -23,7 +23,7 @@
 	            description="Location of platform assembly zip" />
 
 	<property name="report-designer-assembly.dir"
-		            value="../report-designer-assembly"
+		            value="."
 		            description="Location of report designer assembly zip" />
 
 	<property name="monetdb-plugin-assembly.dir"
@@ -146,7 +146,7 @@
             <include name="swt*.jar"/>
 
 			<!-- servlet api -->
-			<include name="servlet-api-*.jar"/>
+			<!--include name="servlet-api-*.jar"/-->
 			<!-- xul jars -->
 			<include name="pentaho-xul-*.jar"/>
 			<!-- kettle jars -->
